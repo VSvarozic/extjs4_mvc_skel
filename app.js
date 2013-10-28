@@ -1,7 +1,7 @@
 Ext.require('Ext.ux.app.RoutedApplication', function () {
     App = Ext.create('Ext.ux.app.RoutedApplication', {
 
-    appFolder:'app',
+    appFolder:'./app',
     name:'App',
     controllers:[
         'Base',

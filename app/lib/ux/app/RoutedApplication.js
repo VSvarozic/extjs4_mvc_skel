@@ -5,8 +5,10 @@
 Ext.define('Ext.ux.app.RoutedApplication', {
 	extend: 'Ext.app.Application',
 	requires: ['Ext.ux.app.RoutedController'],
-	
-	constructor: function(config) {
+
+    name:'App',
+
+    constructor: function(config) {
 		this._layouts = new Ext.util.MixedCollection();				
 		this.callParent(arguments);		
 	},
