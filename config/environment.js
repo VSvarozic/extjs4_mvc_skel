@@ -2,8 +2,8 @@ Ext.Loader.setConfig({
     enabled:true,
     disableCaching:true,
     paths:{
-        'Ext.ux':'./app/lib/ux',
-        'Ext.ux.app':'./app/lib/ux/app'
+        'Ext.ux':'/app/lib/ux',
+        'Ext.ux.app':'/app/lib/ux/app'
     }
 });
 
